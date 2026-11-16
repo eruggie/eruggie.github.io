@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-16",
+  "release": "v1.2.0",
+  "release_commit": "013230b7fc3e0db95b080cf0e9bcc7380e792461",
+  "home_url": "https://eruggie.github.io/",
+  "game_url": "https://ruge.eu.pythonanywhere.com/80_arcade_games/qbert/",
+  "release_url": "https://github.com/eruggie/qbert-pyramid/releases/tag/v1.2.0",
+  "release_assets": 8,
+  "public_download_hashes_verified": true,
+  "windows_releases_unchanged": true,
+  "backend_asset_hashes_match_release": true,
+  "hosted_api_retry_verified": true,
+  "persistence_after_worker_reload": "verified on separate QA database on same host",
+  "production_started_empty": true,
+  "qa_database_deleted": true,
+  "https_enforced_both_hosts": true,
+  "home_redirect_verified": true,
+  "browser_results": {
+    "Chrome": {
+      "version": "157.0.8103.79",
+      "result": "pass",
+      "audio": {
+        "peak": 0.074737548828125,
+        "samples": 374,
+        "contexts": [
+          "running"
+        ]
+      },
+      "console_http_errors": 0,
+      "layout": {
+        "bottom": 689.234375,
+        "width": 961,
+        "height": 540.5625,
+        "viewport": 768
+      }
+    },
+    "Edge": {
+      "version": "157.0.4341.60",
+      "result": "pass",
+      "audio": {
+        "peak": 0.074737548828125,
+        "samples": 413,
+        "contexts": [
+          "running"
+        ]
+      },
+      "console_http_errors": 0,
+      "layout": {
+        "bottom": 689.234375,
+        "width": 961,
+        "height": 540.5625,
+        "viewport": 768
+      }
+    }
+  },
+  "edge_initial_attempt": "did not complete within automation timeout; full repeat passed; cause not determined",
+  "native_windows_test_repeated": false,
+  "free_backend_expiry": "2026-12-16",
+  "paid_services_activated": false,
+  "credentials_in_repositories": false
+}

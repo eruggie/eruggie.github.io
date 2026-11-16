@@ -24,13 +24,13 @@ GitHub Pages ospita HTML/CSS della home con HTTPS. PythonAnywhere EU Beginner,
 account ruge, serve gioco e API alla stessa origine con Python 3.12/WSGI.
 File del gioco confrontati SHA-256 con la release; API e persistenza dopo
 riavvio verificati usando un database di QA separato. Il database di produzione
-è stato inizializzato vuoto, senza record fittizi. La verifica finale del flusso
-browser fra i due domini è in corso e sarà registrata in PUBLICATION_REPORT.md.
+è stato inizializzato vuoto, senza record fittizi. Il flusso browser pubblico è stato verificato su Chrome ed Edge, inclusi
+audio misurato, focus e ritorno HOME: [rapporto completo](PUBLICATION_REPORT.md).
 
 ### Rinnovo gratuito e dati
 
 **Scadenza attuale dell'app gratuita: 16 dicembre 2026.** Accedere periodicamente
-alla scheda Web di PythonAnywhere e usare il comando di estensione/rinnovo
+alla scheda Web di PythonAnywhere e usare **Run until 1 month from today**
 prima della scadenza. Il piano non si rinnova automaticamente con il nostro
 codice; se scade, gioco e classifica possono diventare indisponibili.
 Nessun piano a pagamento, carta di credito o servizio a consumo attivato.
