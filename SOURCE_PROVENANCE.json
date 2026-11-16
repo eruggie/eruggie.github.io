@@ -6,6 +6,6 @@
     "index.html": "2f8113d1821ae2ae4e8cad19a7dc287631b896b5c426519357542efc8598185d",
     "personal.css": "269d6a0ae1d10e9860d0f0ffb7a0b96492b310b70b0adc6b2c1ab989475eda98"
   },
-  "backend_status": "Awaiting authenticated PythonAnywhere EU account and actual hostname",
-  "pages_enabled": false
+  "backend_status": "PythonAnywhere EU account ruge; authenticated deployment pending",
+  "pages_enabled": true
 }

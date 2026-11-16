@@ -8,9 +8,11 @@ commit 013230b7fc3e0db95b080cf0e9bcc7380e792461.
 
 - Release del gioco disponibile: https://github.com/eruggie/qbert-pyramid/releases/tag/v1.2.0
 - Home approvata presente in questo repository; HTML e CSS conservati.
-- GitHub Pages non ancora attivato: attesa account/URL del backend gratuito EU.
+- GitHub Pages ha attivato automaticamente la home su https://eruggie.github.io/.
+- Backend: account EU ruge creato; autenticazione per il deployment in corso.
+- Il gioco online e la classifica non sono ancora dichiarati operativi.
 - Il link Arcade è ancora relativo e verrà impostato all'URL HTTPS reale prima
-  dell'attivazione. Non è dichiarato un gioco funzionante sul dominio github.io.
+  della verifica finale del sito. Non è dichiarato un gioco funzionante sul dominio github.io.
 
 Backend predisposto: **PythonAnywhere EU Beginner**, gratuito con rinnovo
 manuale mensile e storage persistente. Google Drive non esegue Python/SQLite.
