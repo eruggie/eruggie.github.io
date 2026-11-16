@@ -1,40 +1,57 @@
 # Eugenio Ruggieri — sito personale
 
-Home approvata “ruge.”, con due voci: **EMCRAG Project** e **80 Arcade Games**.
-Sorgenti della home: Q*Bert Pyramid WEB 1.2.0, tag v1.2.0,
-commit 013230b7fc3e0db95b080cf0e9bcc7380e792461.
+Home approvata “ruge.”, con due sole voci: **EMCRAG Project** e **80 Arcade Games**.
+
+- **Home:** https://eruggie.github.io/
+- **EMCRAG:** https://github.com/eruggie/EMCRAG/blob/main/README.md
+- **Gioco:** https://ruge.eu.pythonanywhere.com/80_arcade_games/qbert/
+- **Download:** https://github.com/eruggie/qbert-pyramid/releases/tag/v1.2.0
+
+## Versione e provenienza
+
+Q*Bert Pyramid WEB 1.2.0, tag v1.2.0, commit
+013230b7fc3e0db95b080cf0e9bcc7380e792461. La home è quella approvata
+nel pacchetto della release; cambia soltanto la destinazione del link Arcade,
+ora rivolta all'host HTTPS effettivo. Hash in SOURCE_PROVENANCE.json.
+
+Il software e i documenti Markdown del tag v1.2.0 sono congelati; questo
+repository registra separatamente configurazione e stato operativo del sito.
+La release Windows v1.1.0 mantiene tag e asset originali.
 
 ## Stato operativo — 16 novembre 2026
 
-- Release del gioco disponibile: https://github.com/eruggie/qbert-pyramid/releases/tag/v1.2.0
-- Home approvata presente in questo repository; HTML e CSS conservati.
-- GitHub Pages ha attivato automaticamente la home su https://eruggie.github.io/.
-- Backend: account EU ruge creato; autenticazione per il deployment in corso.
-- Il gioco online e la classifica non sono ancora dichiarati operativi.
-- Il link Arcade è ancora relativo e verrà impostato all'URL HTTPS reale prima
-  della verifica finale del sito. Non è dichiarato un gioco funzionante sul dominio github.io.
+GitHub Pages ospita HTML/CSS della home con HTTPS. PythonAnywhere EU Beginner,
+account ruge, serve gioco e API alla stessa origine con Python 3.12/WSGI.
+File del gioco confrontati SHA-256 con la release; API e persistenza dopo
+riavvio verificati usando un database di QA separato. Il database di produzione
+è stato inizializzato vuoto, senza record fittizi. La verifica finale del flusso
+browser fra i due domini è in corso e sarà registrata in PUBLICATION_REPORT.md.
 
-Backend predisposto: **PythonAnywhere EU Beginner**, gratuito con rinnovo
-manuale mensile e storage persistente. Google Drive non esegue Python/SQLite.
-La creazione/verifica email dell'account richiede l'intervento personale del
-proprietario; nessuna fatturazione deve essere attivata.
+### Rinnovo gratuito e dati
 
-## Attivazione del gioco
+**Scadenza attuale dell'app gratuita: 16 dicembre 2026.** Accedere periodicamente
+alla scheda Web di PythonAnywhere e usare il comando di estensione/rinnovo
+prima della scadenza. Il piano non si rinnova automaticamente con il nostro
+codice; se scade, gioco e classifica possono diventare indisponibili.
+Nessun piano a pagamento, carta di credito o servizio a consumo attivato.
 
-1. Creare il piano Beginner gratuito su https://eu.pythonanywhere.com/pricing/ .
-2. Caricare ed estrarre l'asset Runtime 1.2.0 in ~/qbert-web.
-3. Creare la web app Manual configuration con Python >=3.10.
-4. Usare deployment/pythonanywhere_wsgi.py nel file WSGI del servizio;
-   controllare che account.name corrisponda allo username/domain assegnato.
-   Nessuna static mapping: il modulo incluso serve file e API alla stessa origine.
-5. Reload, HTTPS e verifica del gioco/API; database in ~/qbert-data fuori dal sito.
-6. Configurare il link Arcade con il dominio reale, pubblicare Pages dal ramo
-   main, cartella root e verificare i due collegamenti e il ritorno HOME.
+- Configurazione: deployment/pythonanywhere_wsgi.py.
+- File su PythonAnywhere: /home/ruge/qbert-web/site e /home/ruge/qbert-web/server.
+- Database privato di produzione: /home/ruge/qbert-data/leaderboard.sqlite3.
+- Non mettere database o credenziali nel repository o nella directory pubblica.
+- Conservare lo stesso DB durante gli aggiornamenti e fare backup SQLite.
+- Nessuna static mapping sull'intera cartella del gioco: il modulo hosted_wsgi
+  serve file ammessi e API, con streaming e MIME WASM/PCK.
+- HOME e la voce del menu passano dalla radice dell'host del gioco a questa home.
 
-Istruzioni congelate e limiti:
-https://github.com/eruggie/qbert-pyramid/blob/v1.2.0/docs/PYTHONANYWHERE_DEPLOY.md
-https://github.com/eruggie/qbert-pyramid/blob/v1.2.0/docs/GITHUB_PUBLICATION.md
+Il piano gratuito offre un worker e 512 MiB; SQLite è per questo piccolo
+progetto, non è una garanzia di scalabilità o uptime. Google Drive può conservare
+backup e ZIP ma non esegue il backend. Nessuna CORS/API key è inserita nel client.
 
-HTML/CSS senza dipendenze o tracking. Codice originale GPL-3.0-only;
-EMCRAG è collegato come progetto distinto e conserva la propria licenza.
-Lo stato operativo viene aggiornato qui senza modificare il tag del gioco.
+Istruzioni congelate:
+[PythonAnywhere](https://github.com/eruggie/qbert-pyramid/blob/v1.2.0/docs/PYTHONANYWHERE_DEPLOY.md) ·
+[GitHub Pages](https://github.com/eruggie/qbert-pyramid/blob/v1.2.0/docs/GITHUB_PUBLICATION.md).
+
+HTML/CSS senza dipendenze esterne o tracking. Originali GPL-3.0-only;
+EMCRAG resta un progetto distinto con la propria licenza. Crediti e licenze
+Godot/gioco restano nei pacchetti e sul relativo host.

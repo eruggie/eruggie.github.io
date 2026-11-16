@@ -1,0 +1,6 @@
+Q*Bert Pyramid Web 1.2.0; classic baseline Windows 1.1.0.
+Copyright (c) Eugenio Ruggieri 2026. Original code/assets: GPL-3.0-only.
+Exact corresponding sources: QBertPyramid-1.2.0-Source.zip supplied beside the runtime, or source/ in Complete.zip.
+Verify SOURCE_FILES.sha256 and PROVENANCE.json in that archive.
+Source repository: https://github.com/eruggie/qbert-pyramid
+Complete dependency licenses: DEPENDENCY_LICENSES.txt

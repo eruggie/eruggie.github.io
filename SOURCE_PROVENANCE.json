@@ -6,6 +6,12 @@
     "index.html": "2f8113d1821ae2ae4e8cad19a7dc287631b896b5c426519357542efc8598185d",
     "personal.css": "269d6a0ae1d10e9860d0f0ffb7a0b96492b310b70b0adc6b2c1ab989475eda98"
   },
-  "backend_status": "PythonAnywhere EU account ruge; authenticated deployment pending",
-  "pages_enabled": true
+  "backend_status": "HTTPS game and API deployed on PythonAnywhere EU; isolated QA persistence and clean production DB verified",
+  "pages_enabled": true,
+  "backend_url": "https://ruge.eu.pythonanywhere.com/80_arcade_games/qbert/",
+  "backend_free_app_expiry": "2026-12-16",
+  "deployed_files_sha256": {
+    "index.html": "e78d8bc6cd455e84a6c8ba4c584aa51f8962c14a8adac12b42baf3b0f7776dfa",
+    "personal.css": "269d6a0ae1d10e9860d0f0ffb7a0b96492b310b70b0adc6b2c1ab989475eda98"
+  }
 }
