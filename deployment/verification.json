@@ -112,5 +112,13 @@
   "free_backend_expiry": "2026-12-16",
   "previous_release_history": "deployment/verification-1.2.0.json",
   "paid_services_activated": false,
-  "credentials_in_repositories": false
+  "credentials_in_repositories": false,
+  "release_assets": 8,
+  "public_unauthenticated_downloads_verified": true,
+  "public_download_hashes_verified": true,
+  "zip_crc_verified": true,
+  "previous_release_assets_and_tags_unchanged": true,
+  "pages_build_verified": true,
+  "pages_source_and_deployed_home_identical": true,
+  "backend_asset_hashes_match_release": true
 }

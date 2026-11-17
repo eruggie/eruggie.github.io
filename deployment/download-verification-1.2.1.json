@@ -1,0 +1,54 @@
+{
+  "release": "https://github.com/eruggie/qbert-pyramid/releases/tag/v1.2.1",
+  "assets": [
+    {
+      "name": "BUILD_INFO.json",
+      "sha256": "208afec13b98823690582472c49181ac432d401666bd367a354e5c7833979818",
+      "public_unauthenticated_download": "pass",
+      "bytes": 1446
+    },
+    {
+      "name": "QA_EVIDENCE.zip",
+      "sha256": "758e759c1d91cddf907ca2df67a6b8b44c6d098680813731352131161daef867",
+      "public_unauthenticated_download": "pass",
+      "bytes": 16885544
+    },
+    {
+      "name": "QA_REPORT.md",
+      "sha256": "90c6efc200fe94c8160732dc18ba4339acd110d5a69deae29e8b078a6029ea60",
+      "public_unauthenticated_download": "pass",
+      "bytes": 3202
+    },
+    {
+      "name": "QBertPyramid-1.2.1-Complete.zip",
+      "sha256": "4ada62b6d0bc8f1370145e628897a9f33394c116b5a9e88bcdd251632e5664c3",
+      "public_unauthenticated_download": "pass",
+      "bytes": 13320201
+    },
+    {
+      "name": "QBertPyramid-1.2.1-Runtime.zip",
+      "sha256": "e2a391e9c4605dffcc0a950d8c652c142074f8d87e689c412453d19568ed862e",
+      "public_unauthenticated_download": "pass",
+      "bytes": 11479405
+    },
+    {
+      "name": "QBertPyramid-1.2.1-Source.zip",
+      "sha256": "e1c9362fc4dfff31d8994eb3e9b59f77affbcff540ac43062712306831ae902d",
+      "public_unauthenticated_download": "pass",
+      "bytes": 1840818
+    },
+    {
+      "name": "QBertPyramid-1.2.1-WebStatic.zip",
+      "sha256": "588a4d1c646e7846f16b0ce72abbd880fb36c4437473297298cbe20d983b3f85",
+      "public_unauthenticated_download": "pass",
+      "bytes": 11438682
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "sha256": "56a5d9c68d8715c031d17368aa1e3c0631496e6427bd0bfcd4cafb8bbfaa24e6",
+      "public_unauthenticated_download": "pass",
+      "bytes": 633
+    }
+  ],
+  "all_passed": true
+}

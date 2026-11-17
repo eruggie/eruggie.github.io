@@ -44,3 +44,12 @@ browser. Report esatto: [deployment/verification.json](deployment/verification.j
 Conservati tag e asset Windows v1.1.0 e Web v1.2.0. La documentazione del nuovo
 tag è congelata; questo repository mantiene separato lo stato operativo.
 Per vedere il nuovo gioco nel browser abituale, ricaricare con **Ctrl+F5**.
+
+## Controllo finale dei download e Pages
+
+Tutti gli otto allegati riscaricati da URL pubblici senza autenticazione:
+SHA-256 conformi ai file locali e CRC ZIP validi. GitHub indica v1.2.1 come
+ultima release stabile. I metadati degli asset delle release precedenti e
+i tag v1.1.0/v1.2.0 sono invariati. Pages ha completato la build; home, CSS e
+pagina legale serviti via HTTPS coincidono con il repository. Evidenza:
+[download-verification-1.2.1.json](deployment/download-verification-1.2.1.json).
