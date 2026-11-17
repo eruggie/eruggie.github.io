@@ -1,61 +1,116 @@
 {
-  "date": "2026-11-16",
-  "release": "v1.2.0",
-  "release_commit": "013230b7fc3e0db95b080cf0e9bcc7380e792461",
+  "date": "2026-11-17",
+  "release": "v1.2.1",
+  "release_commit": "fb3fbbaba2152782bffb933f0ad9664eda7eb90d",
   "home_url": "https://eruggie.github.io/",
   "game_url": "https://ruge.eu.pythonanywhere.com/80_arcade_games/qbert/",
-  "release_url": "https://github.com/eruggie/qbert-pyramid/releases/tag/v1.2.0",
-  "release_assets": 8,
-  "public_download_hashes_verified": true,
-  "windows_releases_unchanged": true,
-  "backend_asset_hashes_match_release": true,
-  "hosted_api_retry_verified": true,
-  "persistence_after_worker_reload": "verified on separate QA database on same host",
-  "production_started_empty": true,
-  "qa_database_deleted": true,
-  "https_enforced_both_hosts": true,
-  "home_redirect_verified": true,
+  "release_url": "https://github.com/eruggie/qbert-pyramid/releases/tag/v1.2.1",
+  "backend_root": "/home/ruge/qbert-web-1.2.1",
+  "production_database": "/home/ruge/qbert-data/leaderboard.sqlite3",
+  "existing_production_scores_preserved": true,
+  "production_revision_before": 8,
+  "production_revision_after": 8,
+  "valid_test_scores_added_publicly": false,
+  "local_concurrent_valid_writes": "pass; private test databases",
+  "public_read_gzip": "pass",
+  "public_invalid_post": 400,
   "browser_results": {
-    "Chrome": {
-      "version": "157.0.8103.79",
+    "chrome": {
       "result": "pass",
+      "errors": 0,
       "audio": {
         "peak": 0.074737548828125,
-        "samples": 374,
+        "samples": 741,
         "contexts": [
           "running"
         ]
       },
-      "console_http_errors": 0,
-      "layout": {
-        "bottom": 689.234375,
-        "width": 961,
-        "height": 540.5625,
-        "viewport": 768
+      "ranking": {
+        "status": 200,
+        "revision": 8,
+        "rows": 8,
+        "record": 33580
+      },
+      "licenses": {
+        "frames": [
+          {
+            "src": "LICENSE.txt",
+            "length": 35147
+          },
+          {
+            "src": "THIRD_PARTY_NOTICES.txt",
+            "length": 719
+          }
+        ],
+        "gpl": true
+      },
+      "page": {
+        "toolbar": "Fai clic nel gioco per usare la tastiera. Premi P per pausa e per riprendere il gioco.\n\nF11 = Schermo Intero",
+        "footer": "\u00a9 2026 Eugenio Ruggieri \u00b7 Ringraziamenti: Warren Davis e Jeff Lee (Gottlieb).\nProgetto Open Source - Note e Licenze",
+        "buttonsRemoved": true,
+        "noticeEmpty": true,
+        "license": "licenses.html",
+        "version": "80 ARCADE GAMES \u00b7 WEB EDITION 1.2.1"
       }
     },
-    "Edge": {
-      "version": "157.0.4341.60",
+    "edge": {
       "result": "pass",
+      "errors": 0,
       "audio": {
         "peak": 0.074737548828125,
-        "samples": 413,
+        "samples": 704,
         "contexts": [
           "running"
         ]
       },
-      "console_http_errors": 0,
-      "layout": {
-        "bottom": 689.234375,
-        "width": 961,
-        "height": 540.5625,
-        "viewport": 768
+      "ranking": {
+        "status": 200,
+        "revision": 8,
+        "rows": 8,
+        "record": 33580
+      },
+      "licenses": {
+        "frames": [
+          {
+            "src": "LICENSE.txt",
+            "length": 35147
+          },
+          {
+            "src": "THIRD_PARTY_NOTICES.txt",
+            "length": 719
+          }
+        ],
+        "gpl": true
+      },
+      "page": {
+        "toolbar": "Fai clic nel gioco per usare la tastiera. Premi P per pausa e per riprendere il gioco.\n\nF11 = Schermo Intero",
+        "footer": "\u00a9 2026 Eugenio Ruggieri \u00b7 Ringraziamenti: Warren Davis e Jeff Lee (Gottlieb).\nProgetto Open Source - Note e Licenze",
+        "buttonsRemoved": true,
+        "noticeEmpty": true,
+        "license": "licenses.html",
+        "version": "80 ARCADE GAMES \u00b7 WEB EDITION 1.2.1"
       }
+    },
+    "final_license_contrast": {
+      "frames": [
+        {
+          "src": "LICENSE.txt",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(255, 255, 255)",
+          "length": 35147
+        },
+        {
+          "src": "THIRD_PARTY_NOTICES.txt",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(255, 255, 255)",
+          "length": 719
+        }
+      ]
     }
   },
-  "edge_initial_attempt": "did not complete within automation timeout; full repeat passed; cause not determined",
   "native_windows_test_repeated": false,
   "free_backend_expiry": "2026-12-16",
+  "previous_release_history": "deployment/verification-1.2.0.json",
   "paid_services_activated": false,
   "credentials_in_repositories": false
 }

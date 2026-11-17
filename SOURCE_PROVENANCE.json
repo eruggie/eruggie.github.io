@@ -1,12 +1,12 @@
 {
   "repository": "https://github.com/eruggie/qbert-pyramid",
-  "tag": "v1.2.0",
-  "commit": "013230b7fc3e0db95b080cf0e9bcc7380e792461",
+  "tag": "v1.2.1",
+  "commit": "fb3fbbaba2152782bffb933f0ad9664eda7eb90d",
   "files": {
     "index.html": "2f8113d1821ae2ae4e8cad19a7dc287631b896b5c426519357542efc8598185d",
     "personal.css": "269d6a0ae1d10e9860d0f0ffb7a0b96492b310b70b0adc6b2c1ab989475eda98"
   },
-  "backend_status": "Live and verified; separate QA DB removed; final Chrome and Edge public flows passed",
+  "backend_status": "Web 1.2.1 deployed; existing production database retained; verification recorded separately",
   "pages_enabled": true,
   "backend_url": "https://ruge.eu.pythonanywhere.com/80_arcade_games/qbert/",
   "backend_free_app_expiry": "2026-12-16",
@@ -14,5 +14,6 @@
     "index.html": "e78d8bc6cd455e84a6c8ba4c584aa51f8962c14a8adac12b42baf3b0f7776dfa",
     "personal.css": "269d6a0ae1d10e9860d0f0ffb7a0b96492b310b70b0adc6b2c1ab989475eda98"
   },
-  "public_browser_report": "deployment/verification.json"
+  "public_browser_report": "deployment/verification.json",
+  "previous_tag": "v1.2.0"
 }

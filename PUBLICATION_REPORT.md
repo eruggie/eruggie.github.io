@@ -1,3 +1,5 @@
+> Rapporto storico della 1.2.0. Versione corrente: [WEB 1.2.1](PUBLICATION_1.2.1.md).
+
 # Pubblicazione Web 1.2.0 — 16 novembre 2026
 
 ## Destinazioni operative

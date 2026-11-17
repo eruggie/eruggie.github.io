@@ -5,7 +5,7 @@ import sys
 from pathlib import Path
 
 account = Path.home()
-root = account / 'qbert-web'
+root = account / 'qbert-web-1.2.1'
 sys.path.insert(0, str(root / 'server'))
 from hosted_wsgi import create_application
 
